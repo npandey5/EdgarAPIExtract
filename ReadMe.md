@@ -21,3 +21,5 @@ Step 1 - Call API https://data.sec.gov/submissions/CIK0000930667.json (CIK can b
 Step 2 - Filter for all records that have "filings -> recent -> form" == N-Port
 
 Step 3 - Find the AccessionNumber at the same index under "filings -> recent -> accessionNumber"
+
+NOTE: There is rate limiting applicable only the SEC EDGAR APIs (10 requests per second). So the response times will be high.

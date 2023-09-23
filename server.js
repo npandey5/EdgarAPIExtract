@@ -44,8 +44,6 @@ app.get("/fetch-doc/:cik/:accessionNumber", async (req, res) => {
                 return res.status(500).json({ error: "Error parsing primary_doc.xml" });
             }
 
-            console.log(result);
-
             const invstOrSecs = result.edgarSubmission.formData.invstOrSecs.invstOrSec || [];
 
             let finalResponse = {

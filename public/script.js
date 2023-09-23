@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 //console.log(response);
 
-                console.log("Processing Records, please wait");
                 resultDiv.innerHTML += `Processing Records, please wait`;
 
                 //const recentFilings = response.data?.filings?.recent || [];
@@ -42,14 +41,19 @@ document.addEventListener("DOMContentLoaded", () => {
                 //let dataResponse = [];
 
                 //TODO: Remove after testing
-                const limitedCIKs = eligibleCIKs.slice(0, 3);
-
+                const limitedCIKs = eligibleCIKs.slice(0, 50);
 
                 //TODO: Uncomment the eligibleCIKs line after testing
                 //const dataResponsePromises = eligibleCIKs.map(accessionNumber => axios.get(`/fetch-doc/${cikForAPI}/${accessionNumber}`));
-                const dataResponsePromises = limitedCIKs.map(accessionNumber => axios.get(`/fetch-doc/${cikForAPI}/${accessionNumber}`));
 
-                const dataResponses = await Promise.all(dataResponsePromises);
+                //Added Rate limiting to the application:
+                const urls = limitedCIKs.map(accessionNumber => `/fetch-doc/${cikForAPI}/${accessionNumber}`);
+                //const urls = eligibleCIKs.map(accessionNumber => `/fetch-doc/${cikForAPI}/${accessionNumber}`);
+                const dataResponses = await fetchWithRateLimit(urls, 8);
+
+                //Code without Rate Limiting
+                //const dataResponsePromises = limitedCIKs.map(accessionNumber => axios.get(`/fetch-doc/${cikForAPI}/${accessionNumber}`));
+                //const dataResponses = await Promise.all(dataResponsePromises);
 
                 generateExcel(cikNumber, dataResponses.map(res => res.data));
                 resultDiv.innerHTML += `<p>File downloaded for CIK: ${cikNumber}</p>`;
@@ -97,11 +101,26 @@ document.addEventListener("DOMContentLoaded", () => {
     //     });
     // }
 
+    async function fetchWithRateLimit(urls, maxRequestsPerSecond) {
+        const results = [];
+        const interval = 1000 / maxRequestsPerSecond; // Calculate the interval in milliseconds
+
+        for (let i = 0; i < urls.length; i++) {
+            const result = await axios.get(urls[i]);
+            results.push(result);
+
+            // If it's not the last request, wait for the interval before the next request
+            if (i !== urls.length - 1) {
+                await new Promise(resolve => setTimeout(resolve, interval));
+            }
+        }
+
+        return results;
+    }
+
     function generateExcel(cikNumber, dataResponses) {
         const workbook = new Workbook();
         const worksheet = workbook.addWorksheet('Data');
-
-        console.log(dataResponses);
 
         // Extract headers from the GenInfo and Securities sections of the finalResponse object
         const genInfoHeaders = Object.keys(dataResponses[0].GenInfo);
