@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://www.sec.gov/edgar/nportcommon" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.sec.gov/edgar/nportcommon" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="dateSigned" type="xs:date" />
+	<xs:element name="nameOfApplicant" type="xs:string" />
+	<xs:element name="signature" type="xs:string" />
+	<xs:element name="signerName" type="xs:string" />
+	<xs:element name="title" type="xs:string" />
+</xs:schema>

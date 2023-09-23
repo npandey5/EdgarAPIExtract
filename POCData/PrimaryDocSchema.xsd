@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:com="http://www.sec.gov/edgar/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ncom="http://www.sec.gov/edgar/nportcommon" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.sec.gov/edgar/nport" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="schema1.xsd" namespace="http://www.sec.gov/edgar/nportcommon" />
+  <xs:element name="edgarSubmission">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="headerData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="submissionType" type="xs:string" />
+              <xs:element name="isConfidential" type="xs:boolean" />
+              <xs:element name="filerInfo">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="filer">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="issuerCredentials">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="cik" type="xs:unsignedInt" />
+                                <xs:element name="ccc" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="seriesClassInfo">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="seriesId" type="xs:string" />
+                          <xs:element name="classId" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="formData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="genInfo">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="regName" type="xs:string" />
+                    <xs:element name="regFileNumber" type="xs:string" />
+                    <xs:element name="regCik" type="xs:unsignedInt" />
+                    <xs:element name="regLei" type="xs:string" />
+                    <xs:element name="regStreet1" type="xs:string" />
+                    <xs:element name="regCity" type="xs:string" />
+                    <xs:element name="regStateConditional">
+                      <xs:complexType>
+                        <xs:attribute name="regCountry" type="xs:string" use="required" />
+                        <xs:attribute name="regState" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="regZipOrPostalCode" type="xs:unsignedInt" />
+                    <xs:element name="regPhone" type="xs:string" />
+                    <xs:element name="seriesName" type="xs:string" />
+                    <xs:element name="seriesId" type="xs:string" />
+                    <xs:element name="seriesLei" type="xs:string" />
+                    <xs:element name="repPdEnd" type="xs:date" />
+                    <xs:element name="repPdDate" type="xs:date" />
+                    <xs:element name="isFinalFiling" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="fundInfo">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="totAssets" type="xs:decimal" />
+                    <xs:element name="totLiabs" type="xs:decimal" />
+                    <xs:element name="netAssets" type="xs:decimal" />
+                    <xs:element name="assetsAttrMiscSec" type="xs:decimal" />
+                    <xs:element name="assetsInvested" type="xs:decimal" />
+                    <xs:element name="amtPayOneYrBanksBorr" type="xs:decimal" />
+                    <xs:element name="amtPayOneYrCtrldComp" type="xs:decimal" />
+                    <xs:element name="amtPayOneYrOthAffil" type="xs:decimal" />
+                    <xs:element name="amtPayOneYrOther" type="xs:decimal" />
+                    <xs:element name="amtPayAftOneYrBanksBorr" type="xs:decimal" />
+                    <xs:element name="amtPayAftOneYrCtrldComp" type="xs:decimal" />
+                    <xs:element name="amtPayAftOneYrOthAffil" type="xs:decimal" />
+                    <xs:element name="amtPayAftOneYrOther" type="xs:decimal" />
+                    <xs:element name="delayDeliv" type="xs:decimal" />
+                    <xs:element name="standByCommit" type="xs:decimal" />
+                    <xs:element name="liquidPref" type="xs:decimal" />
+                    <xs:element name="cshNotRptdInCorD" type="xs:decimal" />
+                    <xs:element name="borrowers">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="borrower">
+                            <xs:complexType>
+                              <xs:attribute name="aggrVal" type="xs:decimal" use="required" />
+                              <xs:attribute name="lei" type="xs:string" use="required" />
+                              <xs:attribute name="name" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="isNonCashCollateral" type="xs:string" />
+                    <xs:element name="returnInfo">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="monthlyTotReturns">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="monthlyTotReturn">
+                                  <xs:complexType>
+                                    <xs:attribute name="classId" type="xs:string" use="required" />
+                                    <xs:attribute name="rtn1" type="xs:decimal" use="required" />
+                                    <xs:attribute name="rtn2" type="xs:decimal" use="required" />
+                                    <xs:attribute name="rtn3" type="xs:decimal" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="monthlyReturnCats">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="equityContracts">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="mon1">
+                                        <xs:complexType>
+                                          <xs:attribute name="netRealizedGain" type="xs:decimal" use="required" />
+                                          <xs:attribute name="netUnrealizedAppr" type="xs:decimal" use="required" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="mon2">
+                                        <xs:complexType>
+                                          <xs:attribute name="netRealizedGain" type="xs:decimal" use="required" />
+                                          <xs:attribute name="netUnrealizedAppr" type="xs:decimal" use="required" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="mon3">
+                                        <xs:complexType>
+                                          <xs:attribute name="netRealizedGain" type="xs:decimal" use="required" />
+                                          <xs:attribute name="netUnrealizedAppr" type="xs:decimal" use="required" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="futureCategory">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="instrMon1">
+                                              <xs:complexType>
+                                                <xs:attribute name="netRealizedGain" type="xs:decimal" use="required" />
+                                                <xs:attribute name="netUnrealizedAppr" type="xs:decimal" use="required" />
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="instrMon2">
+                                              <xs:complexType>
+                                                <xs:attribute name="netRealizedGain" type="xs:decimal" use="required" />
+                                                <xs:attribute name="netUnrealizedAppr" type="xs:decimal" use="required" />
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="instrMon3">
+                                              <xs:complexType>
+                                                <xs:attribute name="netRealizedGain" type="xs:decimal" use="required" />
+                                                <xs:attribute name="netUnrealizedAppr" type="xs:decimal" use="required" />
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="othMon1">
+                            <xs:complexType>
+                              <xs:attribute name="netRealizedGain" type="xs:decimal" use="required" />
+                              <xs:attribute name="netUnrealizedAppr" type="xs:decimal" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="othMon2">
+                            <xs:complexType>
+                              <xs:attribute name="netRealizedGain" type="xs:decimal" use="required" />
+                              <xs:attribute name="netUnrealizedAppr" type="xs:decimal" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="othMon3">
+                            <xs:complexType>
+                              <xs:attribute name="netRealizedGain" type="xs:decimal" use="required" />
+                              <xs:attribute name="netUnrealizedAppr" type="xs:decimal" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="mon1Flow">
+                      <xs:complexType>
+                        <xs:attribute name="redemption" type="xs:decimal" use="required" />
+                        <xs:attribute name="reinvestment" type="xs:decimal" use="required" />
+                        <xs:attribute name="sales" type="xs:decimal" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="mon2Flow">
+                      <xs:complexType>
+                        <xs:attribute name="redemption" type="xs:decimal" use="required" />
+                        <xs:attribute name="reinvestment" type="xs:decimal" use="required" />
+                        <xs:attribute name="sales" type="xs:decimal" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="mon3Flow">
+                      <xs:complexType>
+                        <xs:attribute name="redemption" type="xs:decimal" use="required" />
+                        <xs:attribute name="reinvestment" type="xs:decimal" use="required" />
+                        <xs:attribute name="sales" type="xs:decimal" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="invstOrSecs">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="invstOrSec">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string" />
+                          <xs:element name="lei" type="xs:string" />
+                          <xs:element name="title" type="xs:string" />
+                          <xs:element name="cusip" type="xs:unsignedInt" />
+                          <xs:element name="identifiers">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="other">
+                                  <xs:complexType>
+                                    <xs:attribute name="otherDesc" type="xs:string" use="required" />
+                                    <xs:attribute name="value" type="xs:string" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="isin">
+                                  <xs:complexType>
+                                    <xs:attribute name="value" type="xs:string" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="balance" type="xs:decimal" />
+                          <xs:element name="units" type="xs:string" />
+                          <xs:element minOccurs="0" name="curCd" type="xs:string" />
+                          <xs:element minOccurs="0" name="currencyConditional">
+                            <xs:complexType>
+                              <xs:attribute name="curCd" type="xs:string" use="required" />
+                              <xs:attribute name="exchangeRt" type="xs:decimal" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="valUSD" type="xs:decimal" />
+                          <xs:element name="pctVal" type="xs:decimal" />
+                          <xs:element name="payoffProfile" type="xs:string" />
+                          <xs:element name="assetCat" type="xs:string" />
+                          <xs:element minOccurs="0" name="issuerConditional">
+                            <xs:complexType>
+                              <xs:attribute name="desc" type="xs:string" use="required" />
+                              <xs:attribute name="issuerCat" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="issuerCat" type="xs:string" />
+                          <xs:element name="invCountry" type="xs:string" />
+                          <xs:element name="isRestrictedSec" type="xs:string" />
+                          <xs:element name="fairValLevel" type="xs:unsignedByte" />
+                          <xs:element minOccurs="0" name="derivativeInfo">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="futrDeriv">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="counterparties">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="counterpartyName" type="xs:string" />
+                                            <xs:element name="counterpartyLei" type="xs:string" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="payOffProf" type="xs:string" />
+                                      <xs:element name="descRefInstrmnt">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="indexBasketInfo">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="indexName" type="xs:string" />
+                                                  <xs:element name="indexIdentifier" type="xs:string" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="expDate" type="xs:date" />
+                                      <xs:element name="notionalAmt" type="xs:decimal" />
+                                      <xs:element name="curCd" type="xs:string" />
+                                      <xs:element name="unrealizedAppr" type="xs:decimal" />
+                                    </xs:sequence>
+                                    <xs:attribute name="derivCat" type="xs:string" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="securityLending">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="cashCollateralCondition">
+                                  <xs:complexType>
+                                    <xs:attribute name="cashCollateralVal" type="xs:decimal" use="required" />
+                                    <xs:attribute name="isCashCollateral" type="xs:string" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="isCashCollateral" type="xs:string" />
+                                <xs:element name="isNonCashCollateral" type="xs:string" />
+                                <xs:element minOccurs="0" name="loanByFundCondition">
+                                  <xs:complexType>
+                                    <xs:attribute name="isLoanByFund" type="xs:string" use="required" />
+                                    <xs:attribute name="loanVal" type="xs:decimal" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="isLoanByFund" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="explntrNotes">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="explntrNote">
+                      <xs:complexType>
+                        <xs:attribute name="note" type="xs:string" use="required" />
+                        <xs:attribute name="noteItem" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="signature">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="ncom:dateSigned" />
+                    <xs:element ref="ncom:nameOfApplicant" />
+                    <xs:element ref="ncom:signature" />
+                    <xs:element ref="ncom:signerName" />
+                    <xs:element ref="ncom:title" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="documents" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

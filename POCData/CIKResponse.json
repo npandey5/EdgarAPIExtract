@@ -1,0 +1,2312 @@
+{
+    "response": [
+        {
+            "formData": {
+                "fundInfo": {
+                    "amtPayAftOneYrBanksBorr": "0.00000000",
+                    "amtPayAftOneYrCtrldComp": "0.00000000",
+                    "amtPayAftOneYrOthAffil": "0.00000000",
+                    "amtPayAftOneYrOther": "0.00000000",
+                    "amtPayOneYrBanksBorr": "0.00000000",
+                    "amtPayOneYrCtrldComp": "0.00000000",
+                    "amtPayOneYrOthAffil": "0.00000000",
+                    "amtPayOneYrOther": "0.00000000",
+                    "assetsAttrMiscSec": "0.00000000",
+                    "assetsInvested": "0.00000000",
+                    "borrowers": {
+                        "borrower": [
+                            {
+                                "$": {
+                                    "aggrVal": "972640.91181800",
+                                    "lei": "549300HN4UKV1E2R3U73",
+                                    "name": "BofA Securities, Inc."
+                                }
+                            },
+                            {
+                                "$": {
+                                    "aggrVal": "171095.02059900",
+                                    "lei": "ZBUT11V806EZRVTWT807",
+                                    "name": "JP MORGAN SECURITIES LLC"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "aggrVal": "540043.34455600",
+                                    "lei": "9R7GPTSO7KV3UQJZQ078",
+                                    "name": "MORGAN STANLEY & CO. LLC (US EQUITY SEC LENDING)"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "aggrVal": "175029.19574200",
+                                    "lei": "FOR8UP27PHTHYVLBNG30",
+                                    "name": "GOLDMAN SACHS & CO."
+                                }
+                            },
+                            {
+                                "$": {
+                                    "aggrVal": "133131.23998200",
+                                    "lei": "AC28XWWI3WIBK2824319",
+                                    "name": "BARCLAYS CAPITAL INC."
+                                }
+                            },
+                            {
+                                "$": {
+                                    "aggrVal": "1068792.73369800",
+                                    "lei": "MP6I5ZYZBEU3UXPYFY54",
+                                    "name": "HSBC BANK PLC"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "aggrVal": "3868.50169700",
+                                    "lei": "RCNB6OTYUAMMP879YW96",
+                                    "name": "BNP PARIBAS SECURITIES CORP"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "aggrVal": "0.55024200",
+                                    "lei": "1V8Y6QCX6YMJ2OELII46",
+                                    "name": "CREDIT SUISSE SECURITIES (USA) LLC"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "aggrVal": "51860.90393800",
+                                    "lei": "BFM8T61CT2L1QCEMIK50",
+                                    "name": "UBS AG"
+                                }
+                            }
+                        ]
+                    },
+                    "cshNotRptdInCorD": "591132.83000000",
+                    "delayDeliv": "0.00000000",
+                    "isNonCashCollateral": "N",
+                    "liquidPref": "0.00000000",
+                    "mon1Flow": {
+                        "$": {
+                            "redemption": "8149145.58000000",
+                            "reinvestment": "0.00000000",
+                            "sales": "0.00000000"
+                        }
+                    },
+                    "mon2Flow": {
+                        "$": {
+                            "redemption": "2117192.77000000",
+                            "reinvestment": "0.00000000",
+                            "sales": "2106022.71000000"
+                        }
+                    },
+                    "mon3Flow": {
+                        "$": {
+                            "redemption": "8542192.52000000",
+                            "reinvestment": "0.00000000",
+                            "sales": "0.00000000"
+                        }
+                    },
+                    "netAssets": "280054203.10",
+                    "returnInfo": {
+                        "monthlyReturnCats": {
+                            "equityContracts": {
+                                "futureCategory": {
+                                    "instrMon1": {
+                                        "$": {
+                                            "netRealizedGain": "1841.63000000",
+                                            "netUnrealizedAppr": "2080.64000000"
+                                        }
+                                    },
+                                    "instrMon2": {
+                                        "$": {
+                                            "netRealizedGain": "0.00000000",
+                                            "netUnrealizedAppr": "7757.66000000"
+                                        }
+                                    },
+                                    "instrMon3": {
+                                        "$": {
+                                            "netRealizedGain": "6890.04000000",
+                                            "netUnrealizedAppr": "-37527.56000000"
+                                        }
+                                    }
+                                },
+                                "mon1": {
+                                    "$": {
+                                        "netRealizedGain": "1841.63000000",
+                                        "netUnrealizedAppr": "2080.64000000"
+                                    }
+                                },
+                                "mon2": {
+                                    "$": {
+                                        "netRealizedGain": "0.00000000",
+                                        "netUnrealizedAppr": "7757.66000000"
+                                    }
+                                },
+                                "mon3": {
+                                    "$": {
+                                        "netRealizedGain": "6890.04000000",
+                                        "netUnrealizedAppr": "-37527.56000000"
+                                    }
+                                }
+                            }
+                        },
+                        "monthlyTotReturns": {
+                            "monthlyTotReturn": {
+                                "$": {
+                                    "classId": "C000011956",
+                                    "rtn1": "4.00000000",
+                                    "rtn2": "-0.14000000",
+                                    "rtn3": "-1.12000000"
+                                }
+                            }
+                        },
+                        "othMon1": {
+                            "$": {
+                                "netRealizedGain": "185345.36000000",
+                                "netUnrealizedAppr": "11001312.85000000"
+                            }
+                        },
+                        "othMon2": {
+                            "$": {
+                                "netRealizedGain": "121887.37000000",
+                                "netUnrealizedAppr": "-2758218.55000000"
+                            }
+                        },
+                        "othMon3": {
+                            "$": {
+                                "netRealizedGain": "522834.28000000",
+                                "netUnrealizedAppr": "-4176381.11000000"
+                            }
+                        }
+                    },
+                    "standByCommit": "0.00000000",
+                    "totAssets": "286842550.30",
+                    "totLiabs": "6788347.20"
+                },
+                "genInfo": {
+                    "isFinalFiling": "N",
+                    "regCik": "0000930667",
+                    "regCity": "SAN FRANCISCO",
+                    "regFileNumber": "811-09102",
+                    "regLei": "549300MGJZCNMJLBAJ67",
+                    "regName": "iShares, Inc.",
+                    "regPhone": "800-474-2737",
+                    "regStateConditional": {
+                        "$": {
+                            "regCountry": "US",
+                            "regState": "US-CA"
+                        }
+                    },
+                    "regStreet1": "400 HOWARD STREET",
+                    "regZipOrPostalCode": "94105",
+                    "repPdDate": "2023-05-31",
+                    "repPdEnd": "2023-08-31",
+                    "seriesId": "S000004252",
+                    "seriesLei": "549300QIDP8IC2ODTL23",
+                    "seriesName": "iShares MSCI Netherlands ETF"
+                },
+                "invstOrSecs": {
+                    "invstOrSec": [
+                        {
+                            "assetCat": "EC",
+                            "balance": "309589.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0015000IY2"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500GJBUL3D9TW9Y18",
+                            "name": "Universal Music Group NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "2.192907737866",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Universal Music Group NV",
+                            "units": "NS",
+                            "valUSD": "6141330.29000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "45273.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0011872650"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500HUXGTQC07CAZ61",
+                            "name": "Basic-Fit NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.619182397837",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isNonCashCollateral": "N",
+                                "loanByFundCondition": {
+                                    "$": {
+                                        "isLoanByFund": "Y",
+                                        "loanVal": "1716695.50554000"
+                                    }
+                                }
+                            },
+                            "title": "Basic-Fit NV",
+                            "units": "NS",
+                            "valUSD": "1734046.33000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "812086.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000303709"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "O4QK7KMMK83ITNTHUG69",
+                            "name": "Aegon NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "1.274198780271",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Aegon NV",
+                            "units": "NS",
+                            "valUSD": "3568447.24000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "30182.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "1",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0012365084"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerConditional": {
+                                "$": {
+                                    "desc": "corporate",
+                                    "issuerCat": "OTHER"
+                                }
+                            },
+                            "lei": "724500I77C30W2LZZJ03",
+                            "name": "NSI NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.229934231613",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "NSI NV",
+                            "units": "NS",
+                            "valUSD": "643940.48000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "42046.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000008977"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500M1WJLFM9TYBS04",
+                            "name": "Heineken Holding NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "1.277729503928",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Heineken Holding NV",
+                            "units": "NS",
+                            "valUSD": "3578335.18000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "96471.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0010273215"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500Y6DUVHQD6OXN27",
+                            "name": "ASML Holding NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "24.91661031956",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "ASML Holding NV",
+                            "units": "NS",
+                            "valUSD": "69780014.47000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "32613.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000852523"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "7245008G22FOV7TYYJ34",
+                            "name": "TKH Group NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.579151464982",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "TKH Group NV",
+                            "units": "NS",
+                            "valUSD": "1621938.02000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "398779.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000337319"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500V38C5KTDY5BS93",
+                            "name": "Koninklijke BAM Groep NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.289828629963",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Koninklijke BAM Groep NV",
+                            "units": "NS",
+                            "valUSD": "811677.26000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "66466.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0011872643"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "7245000G0HS48PZWUD53",
+                            "name": "ASR Nederland NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "1.011434836058",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "ASR Nederland NV",
+                            "units": "NS",
+                            "valUSD": "2832565.77000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "45694.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0006237562"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "7245000UZH70GO047N03",
+                            "name": "Arcadis NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.663447514600",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Arcadis NV",
+                            "units": "NS",
+                            "valUSD": "1858012.65000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "58121.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000379121"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "7245009EAAUUQJ0U4T57",
+                            "name": "Randstad NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "1.018076532485",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Randstad NV",
+                            "units": "NS",
+                            "valUSD": "2851166.12000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "810618.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0010391025"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500DCJ9MPG74JEH91",
+                            "name": "Pharming Group NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.352820700086",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Pharming Group NV",
+                            "units": "NS",
+                            "valUSD": "988089.20000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "19663.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0012747059"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500QDJRUMSPRDHW25",
+                            "name": "CM.com NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.057942847564",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "CM.com NV",
+                            "units": "NS",
+                            "valUSD": "162271.38000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "494313.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0009739416"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500Q41FHN0P1GPC53",
+                            "name": "PostNL NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.274073137094",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "PostNL NV",
+                            "units": "NS",
+                            "valUSD": "767553.34000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "79333.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0013267909"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500XYIJUGXAA5QD70",
+                            "name": "Akzo Nobel NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "2.135292987502",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Akzo Nobel NV",
+                            "units": "NS",
+                            "valUSD": "5979977.76000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "20302.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000334118"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "7245001I22ND6ZFHX623",
+                            "name": "ASM International NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "3.154126034254",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "ASM International NV",
+                            "units": "NS",
+                            "valUSD": "8833262.53000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "15277.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0012817175"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500HDW6IWR9J5YT90",
+                            "name": "Alfen N.V.",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.390403164065",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isNonCashCollateral": "N",
+                                "loanByFundCondition": {
+                                    "$": {
+                                        "isLoanByFund": "Y",
+                                        "loanVal": "1082390.60562800"
+                                    }
+                                }
+                            },
+                            "title": "Alfen N.V.",
+                            "units": "NS",
+                            "valUSD": "1093340.47000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "100055.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0012015705"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500FVZIBSSQ7SHI95",
+                            "name": "Just Eat Takeaway.com NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.540342052805",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Just Eat Takeaway.com NV",
+                            "units": "NS",
+                            "valUSD": "1513250.63000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "57890.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0010558797"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "549300NCMRGIBJYUOE57",
+                            "name": "OCI NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.458808243467",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "OCI NV",
+                            "units": "NS",
+                            "valUSD": "1284911.77000000"
+                        },
+                        {
+                            "assetCat": "STIV",
+                            "balance": "3329322.17000000",
+                            "curCd": "USD",
+                            "cusip": "066922519",
+                            "fairValLevel": "1",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "US0669225197"
+                                    }
+                                }
+                            },
+                            "invCountry": "US",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "RF",
+                            "lei": "5493008LW2651I1QB503",
+                            "name": "BlackRock Funds III",
+                            "payoffProfile": "Long",
+                            "pctVal": "1.189051263340",
+                            "securityLending": {
+                                "cashCollateralCondition": {
+                                    "$": {
+                                        "cashCollateralVal": "3329988.04000000",
+                                        "isCashCollateral": "Y"
+                                    }
+                                },
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "BlackRock Cash Funds: Institutional, SL Agency Shares",
+                            "units": "NS",
+                            "valUSD": "3329988.04000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "399398.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000009538"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "H1FJE8H61JGM1JSGM897",
+                            "name": "Koninklijke Philips NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "2.694358772864",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Koninklijke Philips NV",
+                            "units": "NS",
+                            "valUSD": "7545664.99000000"
+                        },
+                        {
+                            "assetCat": "STIV",
+                            "balance": "170000.00000000",
+                            "curCd": "USD",
+                            "cusip": "066922477",
+                            "fairValLevel": "1",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "US0669224778"
+                                    }
+                                }
+                            },
+                            "invCountry": "US",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "RF",
+                            "lei": "5493008LW2651I1QB503",
+                            "name": "BLACKROCK CASH FUNDS TREASURY SL AGENCY SHARES",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.060702534765",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "BlackRock Cash Funds: Treasury, SL Agency Shares",
+                            "units": "NS",
+                            "valUSD": "170000.00000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "63320.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "3",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000390706"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "72450032NPOX5UJQTI97",
+                            "name": "SRH NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.000000239239",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isNonCashCollateral": "N",
+                                "loanByFundCondition": {
+                                    "$": {
+                                        "isLoanByFund": "Y",
+                                        "loanVal": "0.55024200"
+                                    }
+                                }
+                            },
+                            "title": "SRH NV",
+                            "units": "NS",
+                            "valUSD": "0.67000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "44680.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "1",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "LU1789205884"
+                                    }
+                                }
+                            },
+                            "invCountry": "LU",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "549300PRNTIVQHLEZ808",
+                            "name": "B&S Group Sarl",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.063097181918",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "B&S Group Sarl",
+                            "units": "NS",
+                            "valUSD": "176706.31000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "8612.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0012969182"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500973ODKK3IFQ447",
+                            "name": "Adyen NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "5.036556178720",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Adyen NV",
+                            "units": "NS",
+                            "valUSD": "14105087.27000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "42564.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "1",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "BMG3602E1084"
+                                    }
+                                }
+                            },
+                            "invCountry": "BM",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "549300GSUZI1V3BEXQ36",
+                            "name": "Flow Traders Ltd",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.351231293482",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Flow Traders Ltd",
+                            "units": "NS",
+                            "valUSD": "983638.00000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "94880.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000360618"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "549300RDGCRYZ5QE6513",
+                            "name": "SBM Offshore NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.460635943228",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "SBM Offshore NV",
+                            "units": "NS",
+                            "valUSD": "1290030.32000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "61001.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "1",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0014332678"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500EHG519SE5ZRT89",
+                            "name": "JDE Peet's NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.632821878901",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "JDE Peet's NV",
+                            "units": "NS",
+                            "valUSD": "1772244.27000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "105441.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000395903"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500TEM53I0U077B74",
+                            "name": "Wolters Kluwer NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "4.300564800200",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Wolters Kluwer NV",
+                            "units": "NS",
+                            "valUSD": "12043912.48000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "39672.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0012866412"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "7245007A1YFLI2GNYX06",
+                            "name": "BE Semiconductor Industries NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "1.566322844450",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "BE Semiconductor Industries NV",
+                            "units": "NS",
+                            "valUSD": "4386552.96000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "54454.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0009432491"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500UL634GFV1KYF10",
+                            "name": "Koninklijke Vopak NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.683420194667",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Koninklijke Vopak NV",
+                            "units": "NS",
+                            "valUSD": "1913946.98000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "71768.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "1",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "CH1216478797"
+                                    }
+                                }
+                            },
+                            "invCountry": "CH",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "506700G44V67MPM4BI12",
+                            "name": "DSM-Firmenich AG",
+                            "payoffProfile": "Long",
+                            "pctVal": "2.849877988494",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "DSM-Firmenich AG",
+                            "units": "NS",
+                            "valUSD": "7981203.09000000"
+                        },
+                        {
+                            "assetCat": "DE",
+                            "balance": "24.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "derivativeInfo": {
+                                "futrDeriv": {
+                                    "$": {
+                                        "derivCat": "FUT"
+                                    },
+                                    "counterparties": {
+                                        "counterpartyLei": "529900LN3S50JPU47S06",
+                                        "counterpartyName": "Eurex Deutschland"
+                                    },
+                                    "curCd": "EUR",
+                                    "descRefInstrmnt": {
+                                        "indexBasketInfo": {
+                                            "indexIdentifier": "VGM3 Index",
+                                            "indexName": "Eurex EURO STOXX 50 Futures"
+                                        }
+                                    },
+                                    "expDate": "2023-06-16",
+                                    "notionalAmt": "1035724.79000000",
+                                    "payOffProf": "Long",
+                                    "unrealizedAppr": "-21769.29000000"
+                                }
+                            },
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "other": {
+                                    "$": {
+                                        "otherDesc": "BlackRock Identifier",
+                                        "value": "VGM320231"
+                                    }
+                                }
+                            },
+                            "invCountry": "DE",
+                            "isRestrictedSec": "N",
+                            "issuerConditional": {
+                                "$": {
+                                    "desc": "derivative",
+                                    "issuerCat": "OTHER"
+                                }
+                            },
+                            "lei": "529900LN3S50JPU47S06",
+                            "name": "Eurex Deutschland",
+                            "payoffProfile": "N/A",
+                            "pctVal": "-0.00777324166",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "EURO STOXX 50 JUN23",
+                            "units": "NC",
+                            "valUSD": "-21769.29000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "1478877.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000009082"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "549300YO0JZHAL7FVP81",
+                            "name": "Koninklijke KPN NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "1.816684739483",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Koninklijke KPN NV",
+                            "units": "NS",
+                            "valUSD": "5087701.97000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "22939.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0015000CZ2"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "894500WSIBBFFKHL6B32",
+                            "name": "Ebusco Holding NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.067191939244",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isNonCashCollateral": "N",
+                                "loanByFundCondition": {
+                                    "$": {
+                                        "isLoanByFund": "Y",
+                                        "loanVal": "186287.10465200"
+                                    }
+                                }
+                            },
+                            "title": "Ebusco Holding NV",
+                            "units": "NS",
+                            "valUSD": "188173.85000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "1543504.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0011821202"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "549300NYKK9MWM7GGW15",
+                            "name": "ING Groep NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "6.790703395802",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "ING Groep NV",
+                            "units": "NS",
+                            "valUSD": "19017650.28000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "26555.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0010801007"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500NSJPNFJPDAUP02",
+                            "name": "IMCD NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "1.429308543021",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "IMCD NV",
+                            "units": "NS",
+                            "valUSD": "4002838.65000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "40275.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000302636"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500D8WOYCL1BUCB80",
+                            "name": "Van Lanschot Kempen NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.394329354023",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Van Lanschot Kempen NV",
+                            "units": "NS",
+                            "valUSD": "1104335.93000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "218865.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0011540547"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "BFXS5XCH7N0Y05NIXW11",
+                            "name": "ABN AMRO Bank NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "1.141760964343",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "ABN AMRO Bank NV",
+                            "units": "NS",
+                            "valUSD": "3197549.57000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "398183.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0011794037"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500C9GNBV20UYRX36",
+                            "name": "Koninklijke Ahold Delhaize NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "4.507461223673",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Koninklijke Ahold Delhaize NV",
+                            "units": "NS",
+                            "valUSD": "12623334.61000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "69717.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0011821392"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "549300072P3J1X8NZO35",
+                            "name": "Signify NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.635261902984",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Signify NV",
+                            "units": "NS",
+                            "valUSD": "1779077.66000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "327168.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0013654783"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "635400Z5LQ5F9OLVT688",
+                            "name": "Prosus NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "7.699178213119",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Prosus NV",
+                            "units": "NS",
+                            "valUSD": "21561872.19000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "175628.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "GB00BNTJ3546"
+                                    }
+                                }
+                            },
+                            "invCountry": "GB",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "9598005U8TZQ8Q64SC71",
+                            "name": "Allfunds Group Plc",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.430379118277",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Allfunds Group Plc",
+                            "units": "NS",
+                            "valUSD": "1205294.81000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "79780.00000000",
+                            "curCd": "USD",
+                            "cusip": "000000000",
+                            "fairValLevel": "1",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000687663"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "549300SZYINBBLJQU475",
+                            "name": "AerCap Holdings NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "1.626057509436",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "AerCap Holdings NV",
+                            "units": "NS",
+                            "valUSD": "4553842.40000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "6514.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0013654809"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "7245000V8JJ8CE1L8G60",
+                            "name": "Fastned BV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.070826789173",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isNonCashCollateral": "N",
+                                "loanByFundCondition": {
+                                    "$": {
+                                        "isLoanByFund": "Y",
+                                        "loanVal": "131088.63621000"
+                                    }
+                                }
+                            },
+                            "title": "Fastned BV",
+                            "units": "NS",
+                            "valUSD": "198353.40000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "48492.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000289213"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerConditional": {
+                                "$": {
+                                    "desc": "corporate",
+                                    "issuerCat": "OTHER"
+                                }
+                            },
+                            "lei": "724500YRQCY3BD9RJZ92",
+                            "name": "Wereldhave NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.253958216704",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Wereldhave NV",
+                            "units": "NS",
+                            "valUSD": "711220.66000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "33145.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000888691"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "5493006MN6OH67U2YI74",
+                            "name": "AMG Critical Materials NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.534473031802",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "AMG Critical Materials NV",
+                            "units": "NS",
+                            "valUSD": "1496814.19000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "54447.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000852564"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "549300EMP9DT6Q35HZ31",
+                            "name": "Aalberts NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.822868778433",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Aalberts NV",
+                            "units": "NS",
+                            "valUSD": "2304478.60000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "44237.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0010583399"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500BKS1TSAVLTWG46",
+                            "name": "Corbion NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.434472325903",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Corbion NV",
+                            "units": "NS",
+                            "valUSD": "1216758.01000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "89777.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL00150003E1"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "7245000R8GNBSDTSZ396",
+                            "name": "Fugro NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.461304224574",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Fugro NV",
+                            "units": "NS",
+                            "valUSD": "1291901.87000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "121335.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0010773842"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500OHYNDT9OY6Q215",
+                            "name": "NN Group NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "1.563064050296",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "NN Group NV",
+                            "units": "NS",
+                            "valUSD": "4377426.57000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "105981.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0013332471"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500WAU923OTVC7M86",
+                            "name": "TomTom NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.289650971497",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "TomTom NV",
+                            "units": "NS",
+                            "valUSD": "811179.72000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "49620.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0012059018"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "5493002ENHZ6NYET7405",
+                            "name": "EXOR NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "1.471398427299",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "EXOR NV",
+                            "units": "NS",
+                            "valUSD": "4120713.14000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "45044.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0015000K93"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerConditional": {
+                                "$": {
+                                    "desc": "REIT",
+                                    "issuerCat": "OTHER"
+                                }
+                            },
+                            "lei": "724500SFK53FPNM68L95",
+                            "name": "Eurocommercial Properties NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.367628258602",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Eurocommercial Properties NV",
+                            "units": "NS",
+                            "valUSD": "1029558.39000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "15757.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000288918"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerConditional": {
+                                "$": {
+                                    "desc": "corporate",
+                                    "issuerCat": "OTHER"
+                                }
+                            },
+                            "lei": "724500GTYRJW5W85PN10",
+                            "name": "Vastned Retail NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.117969988074",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Vastned Retail NV",
+                            "units": "NS",
+                            "valUSD": "330379.91000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "182198.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "LU2290522684"
+                                    }
+                                }
+                            },
+                            "invCountry": "LU",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "2221003M23QLERR89585",
+                            "name": "InPost SA",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.703796692990",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "InPost SA",
+                            "units": "NS",
+                            "valUSD": "1971012.22000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "91232.00000000",
+                            "curCd": "USD",
+                            "cusip": "000000000",
+                            "fairValLevel": "1",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "GB00BDCPN049"
+                                    }
+                                }
+                            },
+                            "invCountry": "GB",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "549300LTH67W4GWMRF57",
+                            "name": "Coca-Cola Europacific Partners PLC",
+                            "payoffProfile": "Long",
+                            "pctVal": "2.032451010195",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Coca-Cola Europacific Partners PLC",
+                            "units": "NS",
+                            "valUSD": "5691964.48000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "33622.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "1",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000817179"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500YLB8OA6WK5CH48",
+                            "name": "Sligro Food Group NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.201473658939",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Sligro Food Group NV",
+                            "units": "NS",
+                            "valUSD": "564235.45000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "30687.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0010776944"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500Y5L5UIEYCJCZ03",
+                            "name": "Brunel International NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "0.135376022142",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Brunel International NV",
+                            "units": "NS",
+                            "valUSD": "379126.24000000"
+                        },
+                        {
+                            "assetCat": "EC",
+                            "balance": "97180.00000000",
+                            "currencyConditional": {
+                                "$": {
+                                    "curCd": "EUR",
+                                    "exchangeRt": "0.93554100"
+                                }
+                            },
+                            "cusip": "000000000",
+                            "fairValLevel": "2",
+                            "identifiers": {
+                                "isin": {
+                                    "$": {
+                                        "value": "NL0000009165"
+                                    }
+                                }
+                            },
+                            "invCountry": "NL",
+                            "isRestrictedSec": "N",
+                            "issuerCat": "CORP",
+                            "lei": "724500K5PTPSST86UQ23",
+                            "name": "Heineken NV",
+                            "payoffProfile": "Long",
+                            "pctVal": "3.510935069411",
+                            "securityLending": {
+                                "isCashCollateral": "N",
+                                "isLoanByFund": "N",
+                                "isNonCashCollateral": "N"
+                            },
+                            "title": "Heineken NV",
+                            "units": "NS",
+                            "valUSD": "9832521.23000000"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
