@@ -46,9 +46,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 //TODO: Uncomment the eligibleCIKs line after testing
                 //const dataResponsePromises = eligibleCIKs.map(accessionNumber => axios.get(`/fetch-doc/${cikForAPI}/${accessionNumber}`));
 
+
+                //TODO: Uncomment the eligibleCIKs line after testing
+                //const urls = limitedCIKs.map(accessionNumber => `/fetch-doc/${cikForAPI}/${accessionNumber}`);
+                const urls = eligibleCIKs.map(accessionNumber => `/fetch-doc/${cikForAPI}/${accessionNumber}`);
+
                 //Added Rate limiting to the application:
-                const urls = limitedCIKs.map(accessionNumber => `/fetch-doc/${cikForAPI}/${accessionNumber}`);
-                //const urls = eligibleCIKs.map(accessionNumber => `/fetch-doc/${cikForAPI}/${accessionNumber}`);
                 const dataResponses = await fetchWithRateLimit(urls, 8);
 
                 //Code without Rate Limiting
